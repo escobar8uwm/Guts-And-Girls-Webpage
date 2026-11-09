@@ -1,0 +1,43 @@
+html{
+    background-color: #C79797;
+}
+
+
+.site-header{
+    background-color: #930505;
+    margin: 0;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+.site-h1{
+    font-family: "cc-primal-scream", sans-serif;
+    font-size: 64px;
+    margin: 0 0 2px 0;
+}
+
+.site-h2{
+    font-family: "hightower-text", serif;
+    font-size: 24px;
+}
+
+.site-nav{
+    font-family: "lacquer", sans-serif;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.nav-link{
+    background-image: url('blank_button.png');
+    background-size:cover;
+    margin: 5px 0 10px 0; 
+    display: block;
+    color: #FFFFFF;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+}
