@@ -64,6 +64,38 @@ body{
     text-transform: uppercase;
 }
 
+.has-dropdown{
+    position: relative;
+}
+
+.dropdown{
+    background-image: url("images/genre_dropdown.png");
+    background-size: 100% 100%;
+    position: absolute;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
+    list-style-type: none;
+    padding: 0;
+    display:none;
+
+}
+
+.dropdown-link{
+    text-decoration: none;
+    background-image: url(images/legbone-svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    line-height: 100px;
+    padding: 10px;
+    padding-right: 75px;
+    justify-content: left;
+    color: black;
+}
+
+.has-dropdown:hover .dropdown{
+    display:block;
+}
+
 .blood-image{
     display: block;
     width: 100%;
@@ -135,35 +167,5 @@ body{
     margin-bottom: 0;
 }
 
-.has-dropdown{
-    position: relative;
-}
 
-.dropdown{
-    background-image: url("images/genre_dropdown.png");
-    background-size: 100% 100%;
-    position: absolute;
-    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
-    list-style-type: none;
-    padding: 0;
-    display:none;
-
-}
-
-.dropdown-link{
-    text-decoration: none;
-    background-image: url(images/legbone-svg.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: block;
-    line-height: 100px;
-    padding: 10px;
-    padding-right: 75px;
-    justify-content: left;
-    color: black;
-}
-
-.has-dropdown:hover .dropdown{
-    display:block;
-}
 
