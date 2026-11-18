@@ -212,9 +212,10 @@ body{
 .film-blurb{
     width: 45%;
     padding: 50px 60px;
-    background-image: url('images/web-01.svg');
+    background-image: url('images/web-05.svg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+
 }
 
 .film-title{
@@ -251,15 +252,15 @@ body{
     width: 90px;
     height: 90px;
     margin: 10px 0;
-    background-size: 100% 100%;
     background-repeat: no-repeat;
+    background-size: cover;
     font-family: "lacquer", sans-serif;
     font-size: 30px;
     color: #FFFFFF;
 }
 
 .brain-rating{
-    background-image: url('images/brain-icon.png');
+    background-image: url('images/rating-icon.svg');
 }
 
 .guts-rating{
@@ -267,7 +268,7 @@ body{
 }
 
 .spoiler-rating{
-    background-image: url('images/spoiler-icon.png');
+    background-image: url('images/spoilers-icon.png');
 }
 
 .spoiler-link{

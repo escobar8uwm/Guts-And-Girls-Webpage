@@ -7,13 +7,14 @@ html{
 body{
     margin: 0;
     background-color: #C79797;
-    background-image: linear-gradient(rgba(199, 151, 151, 0.99), rgba(80, 35, 35, 0.85)), url('images/braintexture.jpg');
+    background-image: linear-gradient(rgba(199, 151, 151, 0.75), rgba(80, 35, 35, 0.85)), url('images/paper.jpg');
     background-size: 100%, 800px;
 }
 
 
 .site-header{
     background-color: #930505;
+    background-image: linear-gradient(#930505, rgba(87, 26, 26, 0.85)), url('images/bloodtexture.jpg');
     margin: 0;
     padding: 5px;
     position: relative;
@@ -101,12 +102,13 @@ body{
     width: 100%;
     margin: -5px;
     position: sticky;
+    top: 0;
     z-index: 50px;
 }
 
+
 .page-heading{
     font-family: "hightower-text", serif;
-    background-image: url(images/hellraiser.jpg);
     font-size: 48px;
     font-variant: small-caps;
     color: #FFFFFF;
